@@ -1,0 +1,23 @@
+{
+  "skill_name": "workbuddy-local-dev",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "让 WorkBuddy 在 E:\\AIWork\\demo-app 里加一个登录页，你负责规划、让它改代码，最后检查构建和交互。",
+      "expected_output": "Uses the local WorkBuddy headless CLI, writes to the specified directory, and reports local verification results.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "用你和电脑上的 WorkBuddy 搭配，把当前项目的搜索结果页改成响应式卡片布局。不要反复控制桌面窗口，完成后审查修改。",
+      "expected_output": "Delegates through the CLI when available, avoids GUI polling, and performs a final diff/build/interaction review.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "WorkBuddy 改完以后说测试通过了，你帮我确认一下本地文件是不是真的改好了，并指出遗漏。",
+      "expected_output": "Inspects actual local files and reruns proportionate checks instead of trusting the agent summary.",
+      "files": []
+    }
+  ]
+}
